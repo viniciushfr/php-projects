@@ -1,0 +1,39 @@
+
+        /**
+         *
+         * This styling is mostly to display the gallery.
+         * The plugin handles most styling. The CSS below is mostly for the gallery layout.
+         *
+        */
+
+        body, h1, h2{
+            font-family: 'Roboto', Arial, sans-serif;
+            font-weight: 300;
+        }
+        
+        h1 {
+            font-size: 2.7em;
+            text-align: center;
+        }
+        
+        
+        a {
+            color: black;
+            text-decoration: none;
+        }
+        a:hover img {
+            opacity:0.7;
+        }
+        a h2, a span {
+            /* hide the title and caption until lighterbox shows it */
+            display: none;
+        }
+        @media (max-width: 500px) {
+            h1 {
+                font-size: 1.5em;
+            }
+            section {
+                max-width: 100%;
+                float: none;
+            }
+        }

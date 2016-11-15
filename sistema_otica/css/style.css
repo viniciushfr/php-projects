@@ -1,0 +1,21 @@
+.footer-copy p{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 1em;
+    color: #1E90FF;
+    background-color: #000000;
+    font-weight: bold;
+     font-family: sans-serif;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+footer {
+    background: black;
+    background: rgba(255,255,255,0.9);
+}
+
+footer p {
+    margin: 0;
+    padding: 50px 0;
+}
+
